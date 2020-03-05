@@ -1,48 +1,54 @@
 {
-  "repositories": {
-    "cityofsanmateo/law-docs": {
-      "urls": [
+  "repositories":{
+    "cityofsanmateo/law-docs":{
+      "urls":[
         "https://github.com/oll-test-repos/cityofsanmateo-law-docs.git"
       ],
-      "custom": {
-        "type": "docs",
-        "allow-unauthenticated-commits": true
+      "custom":{
+        "allow-unauthenticated-commits":true,
+        "serve":"latest"
       }
     },
-    "cityofsanmateo/law-html": {
-      "urls": [
+    "cityofsanmateo/law-html":{
+      "urls":[
         "https://github.com/oll-test-repos/cityofsanmateo-law-html.git"
       ],
-      "custom": {
-        "preview": "https://github.com/oll-test-repos/cityofsanmateo-law-html-preview.git",
-        "type": "html"
+      "custom":{
+        "preview":"https://github.com/oll-test-repos/cityofsanmateo-law-html-preview.git",
+        "type":"html",
+        "serve":"historical"
       }
     },
-    "cityofsanmateo/law-xml": {
-      "urls": [
+    "cityofsanmateo/law-xml":{
+      "urls":[
         "https://github.com/oll-test-repos/cityofsanmateo-law-xml"
       ],
-      "custom": {
-        "type": "xml",
-        "allow-unauthenticated-commits": true
+      "custom":{
+        "type":"xml",
+        "allow-unauthenticated-commits":true,
+        "serve":"latest",
+        "serve-prefix":"_uncodified_xml"
       }
     },
-    "cityofsanmateo/law-xml-codified": {
-      "urls": [
+    "cityofsanmateo/law-xml-codified":{
+      "urls":[
         "https://github.com/oll-test-repos/cityofsanmateo-law-xml-codified.git"
       ],
-      "custom": {
-        "preview": "https://github.com/oll-test-repos/cityofsanmateo-law-xml-codified-preview.git",
-        "type": "xml-codified"
+      "custom":{
+        "preview":"https://github.com/oll-test-repos/cityofsanmateo-law-xml-codified-preview.git",
+        "type":"xml-codified",
+        "serve":"historical",
+        "serve-prefix":"_xml"
       }
     },
-    "cityofsanmateo/law-static-assets": {
-      "urls": [
+    "cityofsanmateo/law-static-assets":{
+      "urls":[
         "https://github.com/oll-test-repos/cityofsanmateo-law-static-assets.git"
       ],
-      "custom": {
-        "type": "law-static-assets",
-        "allow-unauthenticated-commits": true
+      "custom":{
+        "type":"law-static-assets",
+        "allow-unauthenticated-commits":true,
+        "serve":"latest"
       }
     }
   }
