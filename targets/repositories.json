@@ -43,10 +43,10 @@
     },
     "cityofsanmateo/law-static-assets":{
       "urls":[
-        "https://github.com/oll-test-repos/cityofsanmateo-law-static-assets.git"
+        "https://github.com/oll-test-repos/openlawlibrary-law-static-assets.git"
       ],
       "custom":{
-        "type":"law-static-assets",
+        "type":"static-assets",
         "allow-unauthenticated-commits":true,
         "serve":"latest"
       }
